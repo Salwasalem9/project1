@@ -1,0 +1,58 @@
+
+.postcard{
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+}
+
+.main-card{
+  grid-area:main;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  left: 20px;
+  justify-content: space-around;
+}
+
+.blog-post-card{
+  margin-bottom: 30px;
+  width: 450px;
+  height: 365px;
+  padding: .2rem;
+  background-color: WHITE;
+  border-radius: .3rem;
+  box-shadow: 0 1.4rem 8rem;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  position: relative;
+  text-align: center;
+
+}
+
+.blog-img{
+  height: 280px;
+}
+
+.blog-post-card h1{
+  position: relative;
+  font-size: 30px;
+  bottom:20px;
+  font-family: 'Anton', sans-serif;
+  text-decoration: underline;
+}
+
+.button1{
+  position: relative;
+  font-size: 14px;
+  background-color: #DCDCDC;
+  color: red;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  bottom: 30px;
+}
+
+.button1:hover{
+  transform: scale(0.9);
+}

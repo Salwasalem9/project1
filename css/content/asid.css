@@ -1,0 +1,50 @@
+
+.asid-bio{
+  grid-area: asid;
+  position: relative;
+  height: 250px;
+  border: 1px solid red;
+  width: 200px;
+  margin-left: 90px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.asid-bio img{
+  border-radius: 50%;
+  border-style: double;
+  display: flex;
+  width: 90px;
+}
+
+.asid-bio h1{
+  font-size: 12px;
+  font-style: italic;
+  color: #92a8d1;
+}
+
+.asid-bio p{
+  text-align:center;
+  font-size: 13px;
+  font-style: italic;
+  color: #92a8d1
+}
+
+.asid-bio ul {
+  display: flex;
+  list-style:none;
+  border-top: 1px solid red;
+}
+
+.asid-bio ul li a{
+  position: relative;
+  text-align: center;
+  right:10px;
+  font-size: 15px;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.soical a:nth-child(1) i{
+  color: #808080;
+}

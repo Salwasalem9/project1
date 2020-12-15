@@ -1,0 +1,24 @@
+.blog-post__footer{
+  grid-area: footfoot;
+  background-color: #FFFAF0;
+  text-align: center;
+}
+
+.madia ul{
+  display: flex;
+  position: relative;
+  list-style:none;
+  justify-content: center;
+  padding: 40px;
+}
+
+.madia ul li{
+  width: 30px;
+}
+
+h6{
+  display: block;
+  position: relative;
+  bottom: 30px;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+
+@import url(content/header.css);
+@import url(content/main.css);
+@import url(content/author.css);
+@import url(content/footer.css);
+@import url(content/asid.css);
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100px auto auto 150px;
+  grid-template-areas:  " header header "
+                       " asid  main"
+                       "Author Author"
+                       " footfoot footfoot ";
+       }

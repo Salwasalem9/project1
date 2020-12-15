@@ -1,0 +1,19 @@
+.blog-post__Author{
+  grid-area: Author;
+  display: flex;
+  margin: 100px;
+  margin-bottom: 10px;
+  border: 1px solid #808080;
+}
+
+.blog-post__inft{
+  position: relative;
+  bottom: 10px;
+  padding-right: 300px;
+}
+
+.blog-post__imgava{
+  position: relative;
+  bottom: 10px;
+  left:130px;
+}
